@@ -15,5 +15,9 @@ namespace Enunciado2
             Valor = valor;
         }
 
+        public override string ToString()
+        {
+            return Valor.ToString();
+        }
     }
 }
